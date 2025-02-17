@@ -1,9 +1,9 @@
-
+import Greet from "./components/Greet";
 
 const App = () => {
   return (
     <div>
-      <h1>Hello world</h1>
+      <Greet name='Abdur Rhaman'/>
     </div>
   );
 };
