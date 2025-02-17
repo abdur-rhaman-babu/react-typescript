@@ -1,3 +1,4 @@
+import Greet from "./components/Greet";
 import Heading from "./components/Heading";
 import Oscar from "./components/Oscar";
 import Status from "./components/Status";
@@ -30,6 +31,7 @@ const App = () => {
         <Oscar>
           <Heading>This is Heading2</Heading>
         </Oscar>
+        <Greet name="Sahabuddin" isLoggedIn={true}/>
     </div>
   );
 };
