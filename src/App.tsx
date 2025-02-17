@@ -1,3 +1,5 @@
+import Heading from "./components/Heading";
+import Oscar from "./components/Oscar";
 import Status from "./components/Status";
 
 
@@ -24,6 +26,10 @@ const App = () => {
   return (
     <div>
         <Status status='error'/>
+        <Heading>This is a heading</Heading>
+        <Oscar>
+          <Heading>This is Heading2</Heading>
+        </Oscar>
     </div>
   );
 };
